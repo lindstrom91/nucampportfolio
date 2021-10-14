@@ -1,0 +1,32 @@
+body, html {
+    height: 100%;
+}
+
+.shib-background {
+    position: relative; 
+    opacity: 0.9;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-image: url("https://img.currency.com/imgs/articles/834xx/Shiba_Inu_coin_price_prediction.jpg");
+
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-image: linear-gradient(to right, #dd5037, #f6e607, #f8750a);
+    color: white; }
+
+h1 {
+    text-align: center;
+}    
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
