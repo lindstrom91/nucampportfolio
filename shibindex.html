@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
 
+    <!-- Scripts For Calculator and SHIB Crypto Widget-->
+    <script src="js/shibscripts.js"></script>
+
 </head>
 
 <title>
@@ -62,7 +65,8 @@
                         <h5 class="card-title">Current SHIB Crypto Prices!</h5>
               
                                           <!-- Cryptocurrency Price Widget --><script>!function(){var e=document.getElementsByTagName("script"),t=e[e.length-1],n=document.createElement("script");function r(){var e=crCryptocoinPriceWidget.init({base:"USD,EUR,GBP,CAD",items:"DOGE,SHIB,",backgroundColor:"FFFFFF",streaming:"1",rounded:"1",boxShadow:"1",border:"1"});t.parentNode.insertBefore(e,t)}n.src="https://co-in.io/widget/pricelist.js?items=DOGE%2CSHIB%2CMINIDOGE%2CDADDYDOGE%2CGSHIBA",n.async=!0,n.readyState?n.onreadystatechange=function(){"loaded"!=n.readyState&&"complete"!=n.readyState||(n.onreadystatechange=null,r())}:n.onload=function(){r()},t.parentNode.insertBefore(n,null)}();</script><!-- /Cryptocurrency Price Widget -->
-                <a onclick="randomCrypto()" class="btn btn-success col d-flex justify-content-center" id="randomcryptobutton">View Random SHIB Crypto!</a>
+                <button onclick="randomCrypto()" class="btn btn-success col justify-content-center" id="randomcryptobutton">View Random SHIB Crypto!</button>
+
             </div>
           </div>
         </div>
@@ -112,7 +116,7 @@
 
 <!-- SHIB Background /div, DO NOT DELETE! -->
 </div>
-<!-- Scripts For Calculator and SHIB Crypto Widget-->
-<script src="js/shibscripts.js"></script>
+
+
 
 </html>
