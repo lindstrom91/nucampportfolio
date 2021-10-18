@@ -2,15 +2,26 @@ body, html {
     height: 100%;
 }
 
-.shib-background {
+body {
     position: relative; 
     opacity: 0.9;
     background-position: center;
-    background-repeat: no-repeat;
+    background-attachment: scroll;
     background-size: cover;
     height: 100%;
     background-image: url("https://img.currency.com/imgs/articles/834xx/Shiba_Inu_coin_price_prediction.jpg");
 
+}
+
+
+b
+
+.cryptowidget{
+    align:center;
+}
+
+.randomcryptobutton{
+    text-align: :center;
 }
 
 .jumbotron {
