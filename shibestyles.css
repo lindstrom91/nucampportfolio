@@ -14,8 +14,6 @@ body {
 }
 
 
-b
-
 .cryptowidget{
     align:center;
 }
@@ -40,4 +38,15 @@ h2 {
 
 p {
     text-align: center;
+}
+
+#shibcarousel {
+    margin: auto;
+    padding: 30px;
+}
+
+
+header {
+    margin: auto;
+    padding: 30px;
 }
